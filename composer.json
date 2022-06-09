@@ -1,0 +1,18 @@
+{
+    "name": "amien/composer_library",
+    "description": "belajar composer library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Amien\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yes"
+        }
+    ],
+    "require": {
+        "php": "7.4.*"
+    }
+}
